@@ -1,6 +1,7 @@
 .mainPage{
   margin-bottom: 10px;
   display: flex;
+  font-family: 'Anton', sans-serif;
 }
 
 .img_grid{
@@ -17,7 +18,7 @@
 #top h1 {
   overflow: hidden; 
   font-size: 70px;
-  border-right: .15em solid #ee8235; 
+  border-right: .15em solid #a74921; 
   white-space: nowrap; 
   margin: 0 auto;
   margin-top: 20px;
@@ -37,7 +38,7 @@
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color:#ee8235; }
+  50% { border-color:#a74921; }
 }
 
 .item1{
@@ -57,14 +58,18 @@ body{
   height: 100%;
   margin: 0px;
   background-color:  #111014;
-  color:#ee8235;
-  font-family: 'Libre Baskerville', serif;
+  color:#a74921;
+  font-family: 'Bungee Shade', cursive;
   }
 
 #top{
   postion: absolute;
   top:0px;
   
+}
+
+h1{
+  font-family: 'Bungee Shade', cursive;
 }
 
 img{
@@ -97,7 +102,7 @@ li{
 }
 
 .li{
-  color:#ee8235 ;
+  color:#a74921 ;
   animation-name: nav_move;
   animation-duration: 2s;
 }
@@ -112,3 +117,12 @@ color:#383838;
   
 }
 
+.vid{
+  position: absolute;
+  padding: 0px;
+  margin-right: 10px;
+  width: 300px;
+  height: 220px;
+  top: 500px;
+  right: 0px;
+}
